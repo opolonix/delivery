@@ -13,3 +13,8 @@ class Сatalog(db.Model):
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
     product_name: datetime = Column(String)
+    price: int # рубли
+    quota: int # доступное колличество
+    sales: int # продажи
+
+    unit: str # единица измерения и размер порции (нужно только для гарммовок) 100g устанавливается шаг с которым можно делать выбор
