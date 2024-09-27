@@ -1,0 +1,107 @@
+
+header .sweet-street {
+    position: relative;
+    background-color: var(--btnBgColor);
+    border-radius: 12px;
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    
+    padding: 5px 8px 5px 5px;
+    min-width: calc(100vw - 101px);
+
+    gap: 14px;
+    height: 45px;
+}
+header .sweet-street .popup {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 8px;
+
+    background-color: var(--accent);
+}
+header .sweet-street .link {
+    width: 29px;
+    height: 29px;
+    transition-duration: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .sweet-street .head {
+    color: var(--textColor);
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+header .search {
+    background-color: var(--btnBgColor);
+    border-radius: 14px 0 0 14px;
+
+    min-width: 45px;
+    height: 45px;
+
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+header .search-bar {
+    display: flex;
+    white-space: nowrap;
+
+    min-width: calc(100vw - 50px);
+}
+header .search-bar .input {
+    width: 100%;
+}
+header .search-bar input {
+    height: 100%;
+    padding: 0;
+    min-width: 100%;
+    font-size: 16px;
+
+    background-color: var(--btnBgColor);
+    color: var(--textColor);
+
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+header .search-bar .close {
+    height: 100%;
+    padding: 0 16px;
+    font-size: 16px;
+
+    background-color: var(--btnBgColor);
+    color: var(--accent);
+
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .search-bar input::placeholder {
+    font-family: 'SF Pro Rounded', sans-serif;
+}
+
+
+header img {
+    user-select: none;
+}
+
+header {
+    gap: 6px;
+    width: 100%;
+    border-radius: 12px 14px 14px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}

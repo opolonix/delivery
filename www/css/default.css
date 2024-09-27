@@ -1,0 +1,14 @@
+body{
+    background-color: #000000;
+    font-family: 'SF Pro Rounded', sans-serif;
+    color: var(--textColor);
+
+    padding: 5px 25px;
+    display: flex;
+}
+html {
+    height: 100%;
+}
+*::selection {
+    background-color: #ffffff2e;
+}
